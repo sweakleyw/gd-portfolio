@@ -39,10 +39,17 @@ img {
   color: #fff;
   font-size: 25px;
   cursor: pointer;
+  transition: all 0.4s ease 0s;
+}
+
+.social > a:hover {
+  color: #a80192 !important;
+  font-size: 30px;
+  border-color: #ffffff !important;
+  transition: all 0.4s ease 0s;
 }
 
 /* .fa-bars {
-  margin-bottom: 10px;
   color: #fff;
   font-size: 25px;
   cursor: pointer;
@@ -73,7 +80,7 @@ img {
   margin: 5px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #projects {
@@ -133,8 +140,19 @@ a {
   margin: 5px;
 }
 
+.single-card {
+  padding: 25px;
+  max-width: 600px;
+  min-width: 440px;
+  background-color: #ffffff6c;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.4s ease 0s;
+}
+
 .card:hover {
-  box-shadow: 3px 1px 11px 0px rgba(225, 169, 255, 0.589);
+  box-shadow: 3px 1px 11px 0px rgba(255, 255, 255, 0.589);
+  transition: all 0.4s ease 0s;
 }
 
 .card-ill {
@@ -175,21 +193,12 @@ a {
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 25px;
   gap: 25px;
+  margin-left: 7px;
 }
 
-.buttons > button {
-  padding: 12px 25px;
-  font-size: 18px;
-  background-color: transparent;
-  border: 2px solid white;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: "Source Sans 3", sans-serif;
-}
 .buttons > a {
   padding: 12px 25px;
   font-size: 18px;
@@ -200,6 +209,15 @@ a {
   border-radius: 5px;
   text-decoration: none;
   font-family: "Source Sans 3", sans-serif;
+  transition: all 0.4s ease 0s;
+}
+
+.buttons > a:hover {
+  color: #a80192 !important;
+  font-size: 20px;
+  background: #ffffff;
+  border-color: #ffffff !important;
+  transition: all 0.4s ease 0s;
 }
 
 .nav-btns {
@@ -213,11 +231,20 @@ a {
   font-size: 15px;
   text-align: center;
   background-color: transparent;
-  border: 2px solid white;
-  color: #fff;
+  border: 2px solid white !important;
+  color: #fff !important;
   cursor: pointer;
   border-radius: 5px;
   text-decoration: none;
+  transition: all 0.4s ease 0s;
+}
+
+.nav-btns > a:hover {
+  color: #a80192 !important;
+  font-size: 20px;
+  background: #ffffff;
+  border-color: #ffffff !important;
+  transition: all 0.4s ease 0s;
 }
 
 .sidebar-grid > * {
@@ -284,25 +311,20 @@ a {
   } */
 }
 
-/* @media (max-width: 768px) {
-  .fa-bars {
+@media (max-width: 768px) {
+  /* .fa-bars {
     display: block;
-  }
-  .nav-btns {
-    visibility: hidden;
+  } */
+  .nav-btns > a {
+    font-family: "Source Sans 3", sans-serif;
   }
 
-  .nav-btns .active {
-    padding: 12px 25px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
+  .buttons {
+    display: flex;
+    justify-content: center;
   }
 
   .headpr {
     margin-top: 0px;
   }
-} */
+}
