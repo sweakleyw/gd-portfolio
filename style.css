@@ -44,7 +44,7 @@ img {
 
 .social > a:hover {
   color: #a80192 !important;
-  font-size: 30px;
+  /* font-size: 30px; */
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
 }
@@ -212,7 +212,7 @@ a {
 
 .buttons > a:hover {
   color: #a80192 !important;
-  font-size: 20px;
+  /* font-size: 20px; */
   background: #ffffff;
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
@@ -239,7 +239,7 @@ a {
 
 .nav-btns > a:hover {
   color: #a80192 !important;
-  font-size: 20px;
+  /* font-size: 20px; */
   background: #ffffff;
   border-color: #ffffff !important;
   transition: all 0.4s ease 0s;
